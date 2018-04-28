@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C0E6D3B208B446D00B33F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0E6D3A208B446D00B33F6A /* Assets.xcassets */; };
+		0CB36175208E16AE00F9D62B /* DataInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB36174208E16AE00F9D62B /* DataInfo.swift */; };
 		0CD8F12B20833A9500683CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8F12A20833A9500683CC8 /* AppDelegate.swift */; };
-		0CD8F12D20833A9500683CC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8F12C20833A9500683CC8 /* ViewController.swift */; };
+		0CD8F12D20833A9500683CC8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8F12C20833A9500683CC8 /* HomeViewController.swift */; };
 		0CD8F13020833A9500683CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD8F12E20833A9500683CC8 /* Main.storyboard */; };
-		0CD8F13220833A9900683CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD8F13120833A9900683CC8 /* Assets.xcassets */; };
 		0CD8F13520833A9900683CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD8F13320833A9900683CC8 /* LaunchScreen.storyboard */; };
 		0CD8F14020833A9900683CC8 /* iRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8F13F20833A9900683CC8 /* iRadioTests.swift */; };
 		0CD8F14B20833A9900683CC8 /* iRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8F14A20833A9900683CC8 /* iRadioUITests.swift */; };
+		0CD8F15B2083426A00683CC8 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8F15A2083426A00683CC8 /* FavoritesViewController.swift */; };
+		0CD8F15D2083444D00683CC8 /* ChannelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8F15C2083444D00683CC8 /* ChannelCollectionViewCell.swift */; };
+		0CD8F15F208347B000683CC8 /* KindTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8F15E208347B000683CC8 /* KindTableViewCell.swift */; };
+		0CD8F16420835B7500683CC8 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8F16320835B7500683CC8 /* AudioPlayer.swift */; };
+		0CD8F16620835C2500683CC8 /* GeneralTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8F16520835C2500683CC8 /* GeneralTabBarViewController.swift */; };
+		0CD8F1682083B54F00683CC8 /* MiniPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD8F1672083B54E00683CC8 /* MiniPlayerView.xib */; };
+		0CD8F16A2083B58D00683CC8 /* MiniPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8F1692083B58D00683CC8 /* MiniPlayerController.swift */; };
+		0CD8F16C2083B65700683CC8 /* MiniPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD8F16B2083B65700683CC8 /* MiniPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C0E6D3A208B446D00B33F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CB36174208E16AE00F9D62B /* DataInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInfo.swift; sourceTree = "<group>"; };
 		0CD8F12720833A9500683CC8 /* iRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD8F12A20833A9500683CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CD8F12C20833A9500683CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CD8F12C20833A9500683CC8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0CD8F12F20833A9500683CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0CD8F13120833A9900683CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CD8F13420833A9900683CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CD8F13620833A9900683CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CD8F13B20833A9900683CC8 /* iRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +57,14 @@
 		0CD8F14620833A9900683CC8 /* iRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD8F14A20833A9900683CC8 /* iRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRadioUITests.swift; sourceTree = "<group>"; };
 		0CD8F14C20833A9900683CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CD8F15A2083426A00683CC8 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		0CD8F15C2083444D00683CC8 /* ChannelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCollectionViewCell.swift; sourceTree = "<group>"; };
+		0CD8F15E208347B000683CC8 /* KindTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindTableViewCell.swift; sourceTree = "<group>"; };
+		0CD8F16320835B7500683CC8 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		0CD8F16520835C2500683CC8 /* GeneralTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTabBarViewController.swift; sourceTree = "<group>"; };
+		0CD8F1672083B54E00683CC8 /* MiniPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MiniPlayerView.xib; sourceTree = "<group>"; };
+		0CD8F1692083B58D00683CC8 /* MiniPlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniPlayerController.swift; sourceTree = "<group>"; };
+		0CD8F16B2083B65700683CC8 /* MiniPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CD61CE7208C2D680084BC3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CD8F15C2083444D00683CC8 /* ChannelCollectionViewCell.swift */,
+				0CD8F15E208347B000683CC8 /* KindTableViewCell.swift */,
+				0CD8F16B2083B65700683CC8 /* MiniPlayerView.swift */,
+				0CD8F1672083B54E00683CC8 /* MiniPlayerView.xib */,
+				0CD8F12E20833A9500683CC8 /* Main.storyboard */,
+				0CD8F13320833A9900683CC8 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CD61CE9208C2D980084BC3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0CD8F12C20833A9500683CC8 /* HomeViewController.swift */,
+				0CD8F15A2083426A00683CC8 /* FavoritesViewController.swift */,
+				0CD8F16520835C2500683CC8 /* GeneralTabBarViewController.swift */,
+				0CD8F1692083B58D00683CC8 /* MiniPlayerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		0CD8F11E20833A9500683CC8 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +139,11 @@
 		0CD8F12920833A9500683CC8 /* iRadio */ = {
 			isa = PBXGroup;
 			children = (
+				0CD61CE9208C2D980084BC3A /* Controller */,
+				0CD61CE7208C2D680084BC3A /* View */,
+				0CD8F162208349BB00683CC8 /* Utils */,
 				0CD8F12A20833A9500683CC8 /* AppDelegate.swift */,
-				0CD8F12C20833A9500683CC8 /* ViewController.swift */,
-				0CD8F12E20833A9500683CC8 /* Main.storyboard */,
-				0CD8F13120833A9900683CC8 /* Assets.xcassets */,
-				0CD8F13320833A9900683CC8 /* LaunchScreen.storyboard */,
+				0C0E6D3A208B446D00B33F6A /* Assets.xcassets */,
 				0CD8F13620833A9900683CC8 /* Info.plist */,
 			);
 			path = iRadio;
@@ -123,6 +165,15 @@
 				0CD8F14C20833A9900683CC8 /* Info.plist */,
 			);
 			path = iRadioUITests;
+			sourceTree = "<group>";
+		};
+		0CD8F162208349BB00683CC8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0CB36174208E16AE00F9D62B /* DataInfo.swift */,
+				0CD8F16320835B7500683CC8 /* AudioPlayer.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +244,11 @@
 				TargetAttributes = {
 					0CD8F12620833A9500683CC8 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					0CD8F13A20833A9900683CC8 = {
 						CreatedOnToolsVersion = 9.3;
@@ -229,8 +285,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CD8F1682083B54F00683CC8 /* MiniPlayerView.xib in Resources */,
+				0C0E6D3B208B446D00B33F6A /* Assets.xcassets in Resources */,
 				0CD8F13520833A9900683CC8 /* LaunchScreen.storyboard in Resources */,
-				0CD8F13220833A9900683CC8 /* Assets.xcassets in Resources */,
 				0CD8F13020833A9500683CC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +313,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CD8F12D20833A9500683CC8 /* ViewController.swift in Sources */,
+				0CD8F12D20833A9500683CC8 /* HomeViewController.swift in Sources */,
+				0CD8F16420835B7500683CC8 /* AudioPlayer.swift in Sources */,
+				0CD8F15B2083426A00683CC8 /* FavoritesViewController.swift in Sources */,
+				0CD8F15F208347B000683CC8 /* KindTableViewCell.swift in Sources */,
+				0CD8F15D2083444D00683CC8 /* ChannelCollectionViewCell.swift in Sources */,
 				0CD8F12B20833A9500683CC8 /* AppDelegate.swift in Sources */,
+				0CD8F16A2083B58D00683CC8 /* MiniPlayerController.swift in Sources */,
+				0CD8F16C2083B65700683CC8 /* MiniPlayerView.swift in Sources */,
+				0CD8F16620835C2500683CC8 /* GeneralTabBarViewController.swift in Sources */,
+				0CB36175208E16AE00F9D62B /* DataInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +498,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93MAR7H8C6;
 				INFOPLIST_FILE = iRadio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +517,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93MAR7H8C6;
 				INFOPLIST_FILE = iRadio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
